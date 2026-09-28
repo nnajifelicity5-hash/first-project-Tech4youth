@@ -1,0 +1,21 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: blue;
+background-color: blueviolet;
+
+}
+.property{
+color: brown; 
+background-color: yellow;
+}
+#name{
+color: red;
+font-size: 40px;
+
+}

@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* =========================
+   TOP HEADER
+========================= */
+
+.top-header {
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(
+        90deg,
+        #d83b72,
+        #b51d9e,
+        #7425d5
+    );
+
+    color: white;
+}
+
+.top-header h3 {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+/* =========================
+   SERVICES CONTAINER
+========================= */
+
+.services {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-template-rows: 220px 220px;
+}
+
+
+/* =========================
+   GENERAL CARD
+========================= */
+
+.service-card {
+    position: relative;
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+
+/* Dark/colored overlay */
+
+.overlay {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+
+/* =========================
+   WEDNESDAY
+========================= */
+
+.wednesday {
+    background-image: url("wednesday.jpg");
+}
+
+.wednesday .overlay {
+    background: rgba(230, 145, 0, 0.65);
+}
+
+
+/* =========================
+   SUNDAY
+========================= */
+
+.sunday {
+    background-image: url("sunday.jpg");
+}
+
+.sunday .overlay {
+    background: rgba(10, 10, 25, 0.75);
+}
+
+
+/* =========================
+   COUNSELING
+========================= */
+
+.counseling {
+    background-image: url("counseling.jpg");
+}
+
+.counseling .overlay {
+    background: rgba(0, 130, 0, 0.65);
+}
+
+
+/* =========================
+   YOUTH
+========================= */
+
+.youth {
+    grid-column: span 2;
+
+    background-image: url("youth.jpg");
+}
+
+.youth .overlay {
+    background: rgba(230, 235, 255, 0.65);
+
+    color: #111;
+}
+
+
+/* =========================
+   GIVING
+========================= */
+
+.giving {
+    background-image: url("giving.jpg");
+}
+
+.giving .overlay {
+    background: rgba(230, 100, 150, 0.60);
+
+    color: #111;
+}
+
+
+/* =========================
+   TEXT
+========================= */
+
+.service-card h2 {
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.service-card h3 {
+    font-size: 19px;
+}
+
+.service-card p {
+    font-size: 9px;
+    font-weight: bold;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+    .services {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 180px 180px 180px;
+    }
+
+    .wednesday,
+    .sunday,
+    .counseling {
+        grid-column: span 1;
+    }
+
+    .youth {
+        grid-column: span 2;
+    }
+
+    .giving {
+        grid-column: span 2;
+    }
+
+    .service-card h2 {
+        font-size: 17px;
+    }
+
+    .service-card h3 {
+        font-size: 16px;
+    }
+}
+
+.youth{
+    background-image: url(church.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.wednesday{
+    background-image: url(hands.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.giving{
+    background-image: url(me.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sunday{
+    background-image: url(me.jpg);
+    background-size: cover;
+    background-position: center;
+}

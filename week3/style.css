@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+table, th, td{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+table{width: 100%;}
+
+th{padding: 20px}
+
+td{
+    padding: 10px;
+}
+
+tr:nth-child(even){background-color: blueviolet;}
+
+ul{
+    margin: 20px;
+    background-color: aquamarine;
+    color: beige;
+    padding: 10px;
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+.nav{
+    background-color: red;
+}
+
+.box1{
+     background-color: brown;
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+    font-size: 40px;
+    width: 20%;
+   
+}
+   
+.box2{
+     background-color: rgb(91, 42, 165);
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+    font-size: 40px;
+    width: 20%;
+   
+}

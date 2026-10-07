@@ -1,4 +1,4 @@
-* {
+/* * {
 
     margin: 0;
     padding: 0;
@@ -19,3 +19,82 @@ color: red;
 font-size: 40px;
 
 }
+.pet{
+    background-color: blueviolet;
+} */
+
+p{
+    background-color:black;
+    color: beige;
+}
+p,h4{
+   background-color: orchid; 
+   color: white;
+}
+
+.war{
+    background-color: brown;
+    color: white;
+    /* padding: 20px; */
+    /* margin: 40px; */
+    padding-bottom: 10px;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 30px;
+    margin-top: 20px;
+    margin-right: 70px;
+    margin-bottom: 30px;
+  
+}
+
+.peace{
+background-color: black;
+color: white;
+height: 200px;
+width: 300px;
+/* border-radius: 30px; */
+margin: 30px;
+border-top-left-radius: 50px;
+border-top-right-radius: 30px;
+border-bottom-left-radius: 100px;
+}
+
+.rat{
+    background-color: rgb(43, 226, 141);
+    height: 100px;
+    margin: 30px;
+    width: 100px;
+    /* border: 5px solid black; */
+    /* border-left: 5px dashed rgb(128, 128, 128);
+    border-right: 7px double orchid;
+    border-bottom: 12px groove brown;
+    border-top: dotted blue; */
+    /* border-width: 10px;
+    border-style: dotted ;
+    border-color: aqua; */
+
+    padding: 30px 50px 60px 5px;
+}
+
+.job{
+    background-color: teal;
+    height: 200px;
+    margin: 40px auto;
+    width: 70px;
+    /* margin-top: 20px;
+    margin-bottom: 40px; */
+}
+
+.hello{
+    background-color: rgb(0, 12, 60);
+
+}
+.div2{
+    ba
+}
+
+.div3{
+    image-rendering: ;
+}
+
+div
